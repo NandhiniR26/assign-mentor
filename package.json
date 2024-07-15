@@ -1,0 +1,27 @@
+{
+  "name": "assign-mentor",
+  "version": "1.0.0",
+  "description": "Mentor and Student assigning with database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NandhiniR26/assign-mentor.git"
+  },
+  "author": "Nandhini Ramesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NandhiniR26/assign-mentor/issues"
+  },
+  "homepage": "https://github.com/NandhiniR26/assign-mentor#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
